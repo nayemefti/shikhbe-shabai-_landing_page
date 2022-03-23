@@ -1,0 +1,540 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* google fonts start here */
+font-family: 'Amatic SC', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Festive', cursive;
+font-family: 'Lora', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Serif', serif;
+font-family: 'Syne Tactile', cursive;
+
+/* google fonts end here */
+
+/* navbar section css start here */
+
+.logo a{
+  width: 200px;
+  height: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.list{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    
+}
+.list ul li{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px;
+    color: #777;
+}
+.sign{
+    margin-top: 30px;
+    margin-left: 60px;
+    padding: 5px;
+}
+.sign button{
+    width: 120px;
+    height: 40px;
+    background-color: #1e266d ;
+    color: #fff;
+    border: 1px solid #1e266d ;
+}
+/* navbar section css end here */
+
+/* intro css section start */
+.intro{
+    margin-bottom: 100px;
+}
+.intro-section{
+    display: flex;
+}
+.section1{
+    margin-top: 110px;
+    margin-right: 10px;
+}
+.section1 h1{
+    font-size: 45px;
+    color: #1e266d;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+.section1 p{
+    color: #777;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 28px;
+    font-weight: 300;
+}
+.section1 button{
+    width: 140px;
+    height: 45px;
+    color: #fff;
+    background-color: #1e266d;
+    border: 1px solid #1e266d;
+    border-radius: 5px;
+}
+
+.section1 button:hover{
+    background-color: #00AEEF;
+    border: 1px solid #00AEEF;;
+}
+.section2{
+    max-width: 50%;
+    max-height: auto;
+}
+/* intro css section end here */
+
+/* card section css start here */
+.card-section{
+    display: flex;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+.card-section h1{
+    font-size: 20px;
+}
+.card1{
+    background-color: #f9799a;
+    width: 400px;
+    height: 150px;
+    border-radius: 5px;
+    color: #fff;
+    margin-right: 10px;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+.card2{
+    background-color: #00AEEF;
+    width: 400px;
+    height: 150px;
+    border-radius: 5px;
+    color: #fff;
+    margin-right: 10px;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+.card3{
+    background-color: #1e266d;
+    width: 400px;
+    height: 150px;
+    border-radius: 5px;
+    color: #fff;
+    margin-right: 10px;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+/* card section css end here */
+
+/* learinng section css start here */
+.learning{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.learning-section{
+    display: flex;
+}
+.learning-left{
+    margin: 10px;
+}
+.learning-left h6{
+    margin-right: 10px;
+    font-size: 30px;
+    font-weight: 300;
+}
+.learning-left h1{
+    color: #1e266d;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.learning-left p{
+    color: #777;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.learning-left button{
+    background-color: #1e266d;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid #1e266d;
+    
+}
+.learning-left button:hover{
+    color: #fff;
+    background-color: #00AEEF;
+    border: 1px solid #00AEEF;
+}
+/* learning section  css end here */
+
+/* support section css start here */
+.support-section{
+    display: flex;
+    margin: 120px 0px;
+}
+
+.support-left{
+    margin-right: 50px;
+}
+.support-right{
+    margin-top: 20px;
+}
+.support-right h6{
+    margin-right: 10px;
+    font-size: 30px;
+    font-weight: 300;
+}
+.support-right h1{
+    color: #1e266d;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.support-right p{
+    color: #777;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.support-right button{
+    background-color: #1e266d;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid #1e266d;
+}
+.support-right button:hover{
+    color: #fff;
+    background-color: #00AEEF;
+    border: 1px solid #00AEEF;
+}
+/* support section css end here */
+
+/* earn section css start here */
+.earn-section{
+    display: flex;
+    margin: 150px 0px;
+}
+.earn-left{
+    margin-top: 40px;
+}
+.earn-left h6{
+    margin-right: 10px;
+    font-size: 30px;
+    font-weight: 300;
+}
+.earn-left h1{
+    color: #1e266d;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.earn-left p{
+    color: #777;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.earn-left button{
+    background-color: #1e266d;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid #1e266d;
+}
+.earn-left button:hover{
+    color: #fff;
+    background-color: #00AEEF;
+    border: 1px solid #00AEEF;
+}
+/* earn section css end here */
+
+/* privilege section css start here */
+.pri{
+    display: flex;
+    margin: 120px 0px;
+}
+.pri-left img{
+    max-width: 700px;
+    height: auto;
+}
+.pri-right{
+    margin-left: 60px;
+}
+.pri-right h6{
+    margin-right: 10px;
+    font-size: 30px;
+    font-weight: 300;
+}
+.pri-right h1{
+    color: #1e266d;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.pri-right p{
+    color: #777;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.pri-right button{
+    background-color: #1e266d;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid #1e266d;
+}
+.pri-right  button:hover{
+    color: #fff;
+    background-color: #00AEEF;
+    border: 1px solid #00AEEF;
+}
+/* privilege section css end here */
+
+/* about section css start here */
+.top{
+    margin: 50px 0px;
+}
+.top h1{
+    text-align: center;
+    font-size: 45px;
+    color: #07324f;
+    font-weight: 700;
+    line-height: 46px;
+    margin-bottom: 30px;
+}
+
+/* bottom section css start here */
+
+.bottom{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+.icon{
+    font-size: 35px;
+    
+}
+.icon a{
+    color: #495057;
+}
+.icon a:hover{
+    color: #00AEEF;
+}
+.section{
+    margin-top: 40px;
+    margin-right: 50px;
+}
+.section a{
+    color: #777;
+    text-decoration: none;
+    list-style: none;
+    padding: 60px;
+}
+.section h4{
+    font-size: 20px;
+    
+}
+.section h5{
+    font-size: 16px;
+    font-weight: 400;
+    color: #495057;
+}
+/* about section css end here */
+
+/* lab section css start here */
+.lab{
+  margin: 120px 0px;
+}
+.lab-section img{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* lab section css end here */
+
+/* story section css start here */
+.story-section{
+    display: flex;
+    padding: 20px;
+}
+.story-left{
+    margin-right: 30px;
+}
+.middle{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.story-right{
+    margin-left: 30px;
+    background-color: #91a3bb;
+    background: #fff;
+    margin-top: 20px;
+    box-shadow: 0 8px 28px 2px rgb(61 61 61 / 12%);
+    text-align: left;
+    padding: 74px 60px 50px;
+    border-right: 1px solid #e8e9ed;
+    transition: background .3s ease,border .3s ease,color .01s linear;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+.story-left img{
+    width: 20%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+.story-left h1{
+    color: #1e266d;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.story-left p{
+    color: #777;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.story-left button{
+    background-color: #1e266d;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid #1e266d;
+}
+.story-left button:hover{
+    color: #fff;
+    background-color: #00AEEF;
+    border: 1px solid #00AEEF;
+}
+.middle img{
+    width: 100%;
+    height: 550px;
+}
+/* story section css end here */
+
+/* office section css start here */
+  .office-section{
+       display: flex;
+       flex-basis: 40%;
+       width: 1100px;
+       height: 300px;
+       background-color: #1e266d;
+       margin: 100px 0px;
+       border-radius: 10px;
+   }
+.office-left{
+     color: #fff;
+     margin-left: 120px;
+     margin-top: 50px;
+ }
+ .office-left h1{
+     font-size: 24px;
+ }
+ .office-right{
+    color: #fff;
+    margin-left: 120px;
+    margin-top: 50px;
+ }
+ .office-right h1{
+     font-size: 24px;
+ }
+/* office section css end here */
+
+/* footer section css start here */
+.footer-section{
+    display: flex;
+}
+.footer-left h1{
+    font-size: 18px;
+    color: #1e266d;
+    font-weight: 700;
+}
+.footer-left p{
+    color: #91a3bb;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.footer-middle{
+    margin-left: 100px;
+}
+.footer-middle h1{
+    font-size: 18px;
+    color: #1e266d;
+    font-weight: 700;
+}
+.footer-middle p{
+    font-size: 18px;
+    color: #91a3bb;
+    margin-top: 10px;
+}
+.footer-link{
+    text-decoration:  none;
+    display: block;
+    margin-left: 100px;
+}
+.footer-link a{
+    text-decoration:  none;
+    display: block;
+}
+.footer-link h1{
+    font-size: 18px;
+    color: #1e266d;
+    font-weight: 700;
+}
+.footer-link p{
+    color: #91a3bb;
+}
+.link a{
+    color: #91a3bb;
+}
+.footer-right{
+    text-decoration: none;
+    display: block;
+    margin-left: 100px;
+}
+.footer-right a{
+    text-decoration: none;
+    display: block;
+}
+.footer-right h1{
+    font-size: 18px;
+    color: #1e266d;
+    font-weight: 700;
+}
+.social a{
+    color: #91a3bb;
+}
+/* footer section css end here */
+
+/* bottom section css start here */
+.bottom-logo img{
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+}
+.bottom-section{
+    margin-top: 100px;
+    text-align: center;
+    color: #91a3bb;
+}
+/* bottom section css end here */
